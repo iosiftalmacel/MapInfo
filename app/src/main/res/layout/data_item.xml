@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+>
+
+    <ImageView
+        android:id="@+id/image_number"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_share" />
+
+    <TextView
+        android:id="@+id/text_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_number"
+        android:layout_alignTop="@+id/image_number"
+        android:layout_alignRight="@+id/image_number"
+        android:layout_alignLeft="@+id/image_number"
+        android:gravity="center"
+        android:paddingTop="1dp"
+        android:singleLine="true"
+        android:text="100"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toRightOf="@+id/image_number"
+        android:singleLine="true"
+        android:text="ideato"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginRight="12dp"
+        android:layout_toEndOf="@+id/image_number"
+        android:layout_toRightOf="@+id/image_number"
+        android:singleLine="true"
+        android:text="ideato"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+        android:textSize="15sp"
+        android:layout_marginEnd="12dp" />
+    <Button
+        android:id="@+id/click_button"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile_pic"/>
+
+    <TextView
+        android:id="@+id/comment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:text="Iosif Talmacel"
+        android:textSize="16sp"
+        android:layout_marginTop="-1dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:id="@+id/comment_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:text="Hello how are you"
+        android:textSize="14sp"
+ />
+</FrameLayout>
